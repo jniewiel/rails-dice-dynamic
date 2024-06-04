@@ -1,7 +1,7 @@
 {
   "editor.tabSize": 4,
   "editor.acceptSuggestionOnEnter": "on",
-  "editor.bracketPairColorization.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
   "editor.cursorSurroundingLines": 4,
   "editor.dragAndDrop": false,
   "editor.guides.bracketPairs": true,
@@ -56,5 +56,6 @@
   },
   "editor.autoClosingBrackets": "always",
   "editor.autoClosingComments": "always",
-  "editor.autoClosingQuotes": "always"
+  "editor.autoClosingQuotes": "always",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true
 }

@@ -1,13 +1,19 @@
 class MainController < ApplicationController
 
-  def main
-    render({:template => ""})
+  def home
+    render({:template => "dice/home"})
   end
 
-  def giraffe
-    @rolls = 
+  def two_six
+    @rolls = []
 
-    render({:template => "game_templates/play_rock"})
+    2.times do
+      die = rand(1..6)
+  
+      @rolls.push(die)
+    end
+
+    render({:template => "dice/two_six"})
   end
 
 end
